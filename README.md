@@ -80,7 +80,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 </p>
 
 <p>
-<img src="https://i.imgur.com/ZtKRaSv.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hzRYkly.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  This code from our Attacker VM will simulate a Brute Force Attack where it loops 11 failed log-in attempts with one successful log-in at the end .</p>
