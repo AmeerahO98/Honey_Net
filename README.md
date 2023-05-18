@@ -65,7 +65,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
                                                                                         
                                                                                         
 <p>
-<img src="https://i.imgur.com/l8FFRO7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3VSeOFU.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Begin to create one of the new alerts in Microsoft Sentinel. Name it and decide the tactics and Tactics/techniques to scan for. 
