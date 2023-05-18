@@ -86,21 +86,21 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
  This code from our Attacker VM will simulate a Brute Force Attack where it loops 11 failed log-in attempts with one successful log-in at the end .</p>
 
 <p>
-<img src="https://i.imgur.com/cwJFYQf.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BMCeUO3.jpg" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
  This code from our Attacker VM will attempt to access the password for our Key Vault Resource we created in our Windows VM .
 </p>
 
 <p>
-<img src="https://i.imgur.com/xLv63t6.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6aug2pg.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   Created four custom workbooks in Microsoft Sentinel to track and plot the locations of the attacks globally .
 </p>
 
 <p>
-<img src="https://i.imgur.com/EubDCBR.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9lzMn7i.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To form the attack maps in this lab along with our workbooks in Sentinel, two large files containing Geo Data (longitude/latitude/IP addresses) were loaded into a container within a storage account. Blob SAS URLs (Shared Access Signatures) were then created for both files. The SAS URLs are ingested by our Log Repository. Creating and linking our Microsoft Sentinel resource to the Log Anaylytics workspace gives the SIEM access to all the geo data. Giving Sentinel access to this data allows watchlists/queries/workbooks and other instances to be created in the SIEM. 
@@ -108,7 +108,7 @@ To form the attack maps in this lab along with our workbooks in Sentinel, two la
 </p>
 
 <p>
-<img src="https://i.imgur.com/52gvYnL.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/stxDM7t.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Our two watchlists within Microsoft Sentinel.  
@@ -136,14 +136,14 @@ To form the attack maps in this lab along with our workbooks in Sentinel, two la
 </p>                                         
                                                                                     
  <p>
-<img src="https://i.imgur.com/8ZPM8Mj.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eEcWebV.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Begin to inspect one of the Alerts/Incidents in Microsoft Sentinel.
+ Begin to inspect one of the Alerts/Incidents in Microsoft Sentinel. Medium severity. 
 </p>                                                                                   
                                                                                 
  <p>
-<img src="https://i.imgur.com/vcR9qwr.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/cNxuFlV.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Looking further into the Brute Force Attempt, looking at the related incidents to this alert.  
