@@ -72,7 +72,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <br />
 
 <p>
-<img src="https://i.imgur.com/HrYaubu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yMIZZ6W.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p> 
   This query in the scheduled rule will alert Sentinel for EventID 4625, where failed log-in attempts are 10 or more.                                                                                               
