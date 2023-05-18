@@ -27,7 +27,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 
 <h2>Operating Systems Used </h2>
 
-- MAC OS / Windows 10(VM)</b> 
+- MAC OS / Windows 10 (VM)</b> 
 
 
 <h2> Lab Description </h2>
@@ -44,7 +44,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <img src="https://i.imgur.com/3d6icca.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Created custom inbound rule in our Windows VM. Purposely weakinging our NSG. Allowing multiple ports to remain open, to make it attractive to attackers  world wide.   
+ Created custom inbound rule in our Windows VM. Purposely weakinging our NSG. Allowing multiple ports to remain open, to make it attractive to attackers world wide.   
 </p>
 <br />                                                                                       
 
@@ -52,7 +52,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <img src="https://i.imgur.com/PSPOEIQ.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- We create anoter Windows VM(attacker) that will act as one of our attackers where it can create alerts and incidents in our SIEM (Azure Sentinel).  
+ We create another Windows VM (attacker) that will act as one of our attackers where it can create alerts and incidents in our SIEM (Azure Sentinel).  
 </p>
 <br />
                                                                                         
@@ -60,7 +60,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <img src="https://i.imgur.com/qtFNqyx.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Enable logging for SQL Server to report successful and failed attempts into Windows Event Viewer . 
+  Enable logging for SQL Server to report successful and failed attempts into Windows Event Viewer. 
 </p>                                                                                                    
                                                                                         
                                                                                         
@@ -68,7 +68,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <img src="https://i.imgur.com/3VSeOFU.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Begin to create one of the new alerts in Microsoft Sentinel. Name it and decide the tactics and Tactics/techniques to scan for. 
+ Begin to create one of the new alerts in Microsoft Sentinel. Name it and decide the tactics and techniques to scan for. 
 <br />
 
 <p>
@@ -89,14 +89,14 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <img src="https://i.imgur.com/BMCeUO3.jpg" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
- This code from our Attacker VM will attempt to access the password for our Key Vault Resource we created in our Windows VM .
+ This code from our Attacker VM will attempt to access the password for our Key Vault Resource we created in our Windows VM.
 </p>
 
 <p>
 <img src="https://i.imgur.com/6aug2pg.jpg" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Created four custom workbooks in Microsoft Sentinel to track and plot the locations of the attacks globally .
+  Created four custom workbooks in Microsoft Sentinel to track and plot the locations of the attacks globally.
 </p>
 
 <p>
@@ -125,7 +125,7 @@ To form the attack maps in this lab along with our workbooks in Sentinel, two la
 <img src="https://i.imgur.com/1h1ha5h.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
- Attack Map displays Syslog authoriaztion failures. 
+ Attack Map displays Syslog authorization failures. 
 </p>
 
 <p>
