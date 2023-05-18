@@ -41,7 +41,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <br />
                                                                                         
  <p>
-<img src="https://i.imgur.com/VoAfD8s.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3d6icca.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  Created custom inbound rule in our Windows VM. Purposely weakinging our NSG. Allowing multiple ports to remain open, to make it attractive to attackers  world wide.   
@@ -49,7 +49,7 @@ This lab demonstrates a highly vulnerable environment leaving many attack surfac
 <br />                                                                                       
 
 <p>
-<img src="https://i.imgur.com/gycQtZH.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PSPOEIQ.jpg"80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
  We create anoter Windows VM(attacker) that will act as one of our attackers where it can create alerts and incidents in our SIEM (Azure Sentinel).  
